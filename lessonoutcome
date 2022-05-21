@@ -22,11 +22,12 @@
   <li>HTML stands for <b>Hyper Text Markup Language</b></li>
   <li>Basic Tags:</li>
     <ol>
-      <li>Doctype</l>
+      <li>Doctype</li>
       <li>HTML</li>
       <li>Head</li>
     </ol
   <li><i>Lists</i></li>  
+<ul>
 
 </body>
 </html>
