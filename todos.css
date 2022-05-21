@@ -1,1 +1,21 @@
+body{
+    background-color: rgb(161, 184, 169);
+}
 
+
+div {
+    background-color: aliceblue;
+}
+
+h1{
+    color:aliceblue;
+}
+
+ul {
+    color: rgb(41, 41, 41);
+}
+
+div{
+    padding: 1%;
+    border: 2px rgb(84, 108, 93) solid;
+}
