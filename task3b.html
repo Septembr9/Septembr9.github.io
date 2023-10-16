@@ -8,7 +8,7 @@
 
 <body>
 
-    <h1>Task: Login Exercise</h1>
+    <h1>Register</h1>
 
 
     <!--Form: NAMES-->
@@ -21,15 +21,14 @@
     </form>
 
     <form>
+        <label for="male">Male:</label>
         <input id="male" name="gender" type="radio" value="Male">
+        <label for="female">Female:</label>
         <input id="female" name="gender" type="radio" value="Female">
+        <label for="other">Other:</label>
         <input id="other" name="gender" type="radio" value="Other">
     </form>
 
-
-    <form>
-        <input type="submit" value="Submit">
-    </form>
 
     <form>
         <label for="email">Email:</label> 
@@ -39,7 +38,17 @@
         <input id="password" name="password" type="password" maxlength="16" required>
     </form>
 
-    
+    <form>
+        <label for="TermsAndConditions">I agree to the terms and conditions</label> 
+        <input id="TermsAndConditions" name="TermsAndConditions" type="checkox" value="accepted">       
+    </form>
+
+
+    <form>
+        <input type="submit" value="Submit">
+    </form>
+
+
     <a href="index.html">Back Home</a>
 </body>
 
