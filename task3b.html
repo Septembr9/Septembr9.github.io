@@ -8,6 +8,7 @@
 
 <body>
 
+    <!--TITLE-->
     <h1>Register</h1>
 
 
@@ -20,6 +21,7 @@
         <input id="LastName" name="Last Name" type="text" placeholder="Last Name" required>
     </form>
 
+    <!--Form: GENDER-->
     <form>
         <label for="male">Male</label>
         <input id="male" name="gender" type="radio" value="Male" required>
@@ -30,6 +32,7 @@
     </form>
 
 
+    <!--Form: EMAIL+PASSWORD-->
     <form>
         <label for="email">Email:</label> 
         <input id="email" name="email" type="email" required>
@@ -38,11 +41,8 @@
         <input id="password" name="password" type="password" maxlength="16" required>
     </form>
 
-    <form>
-        <label for="TermsAndConditions">I agree to the terms and conditions</label> 
-        <input id="TermsAndConditions" name="TermsAndConditions" type="checkbox" value="accepted" required>       
-    </form>
 
+    <!--Form: BIRTHDAY-->
     <form>
         <p>Birthday:</p>
         <select name="Month">
@@ -62,11 +62,20 @@
     </form>
 
 
+    <!--Form: SUBMIT-->
     <form>
         <input type="submit" value="Submit">
     </form>
 
 
+    <!--Form: TERMS+CONDITIONS-->
+    <form>
+        <label for="TermsAndConditions">I agree to the terms and conditions</label> 
+        <input id="TermsAndConditions" name="TermsAndConditions" type="checkbox" value="accepted" required>       
+    </form>
+
+
+    <!--HOME-->
     <a href="index.html">Back Home</a>
 </body>
 
