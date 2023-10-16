@@ -10,34 +10,36 @@
 
     <h1>Task: Login Exercise</h1>
 
-    <!--Form
-    <form action="/form-post">
 
+    <!--Form: NAMES-->
+    <form action="/form-post">
+        <label for="FirstName">First Name</label> 
+        <input id="FirstName" name="First Name" type="text" placeholder="First Name" required>
+
+        <label for="LastName">Last Name</label> 
+        <input id="LastName" name="Last Name" type="text" placeholder="Last Name" required>
+    </form>
+
+    <form>
+        <input id="male" name="gender" type="radio" value="Male">
+        <input id="female" name="gender" type="radio" value="Female">
+        <input id="other" name="gender" type="radio" value="Other">
+    </form>
+
+
+    <form>
+        <input type="submit" value="Submit">
+    </form>
+
+    <form>
         <label for="email">Email:</label> 
         <input id="email" name="email" type="email" required>
         
         <label for="password">Password:</label>
-        <input id="password" name="password" type="password" minlength="16">
+        <input id="password" name="password" type="password" maxlength="16" required>
+    </form>
 
-        <input type="submit" value="Submit">
-
-    </form>-->
-
-    <form action="/form-post">
-
-        <label for="FirstName">First Name</label> 
-        <input id="FirstName" name="John" type="text" required>
-
-        <label for="LastName">Last Name</label> 
-        <input id="LastName" name="Smith" type="text" required>
-        
-        <label for="password">Password:</label>
-        <input id="password" name="password" type="password" minlength="16">
-
-        <input type="submit" value="Submit">
-
-    </form>    
-
+    
     <a href="index.html">Back Home</a>
 </body>
 
